@@ -1,0 +1,218 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    /* color: white; */
+    position: fixed;
+    width: 100%;
+    background: rgba(255,255,255,0.7);
+    z-index: 1;
+}
+
+.header img {
+    height: 27px;
+    width: 100px;
+}
+
+.header .ul {
+    display: flex;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+}
+
+.header ul li {
+    margin: 10px;
+    font-size: 18px;
+
+}
+
+.header ul li a{
+   cursor: pointer;
+
+}
+
+
+
+.section .model{
+    margin-top: 6rem;
+}
+.section .buttons .downarrow{
+    margin-top: 3rem;
+}
+.section h1 {
+
+    font-size: 53px;
+}
+
+.section p {
+    /* padding-bottom: 100px; */
+    font-size: 18px;
+}
+
+
+.buttons {
+    margin-top: calc(11rem + 8.1vw);
+     display: flex;
+}
+
+.section .buttons a{
+    margin: 0 20px;
+    display: inline-block;
+    background-color: red;
+    height: 45px;
+    width: 300px;
+    border-radius: 1rem;
+    padding: 13px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.section .buttons a:nth-of-type(1){
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+.section .buttons a:nth-of-type(2){
+    background-color: rgba(255,255,255);
+    color: black;
+}
+.header .sidebar{
+    content: "";
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    background-color: white;
+    right: -313px;
+    height: 100vh;
+    width: 300px;
+   padding: 60px 20px;
+   transition: 0.6s ease-in-out;
+}
+.header .sidebar li{
+   font-size: 20px;
+}
+.sidebar a{
+   position: absolute;
+   top: 26px;
+   right: 27px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.sidebar a:hover{
+   transform: rotate(360deg);
+}
+
+.downarrow {
+    height: 50px;
+}
+.arrow{
+    height: 100%;
+}
+.black{
+    background-color: rgba(255,255,255) !important ;
+}
+
+
+
+
+.textarea{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+video.video-background {
+    width: 100%;
+}
+
+
+video.video-background {
+    position: relative;
+}
+
+
+
+.section {
+    align-items: center;
+    background-attachment: scroll;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+
+.section .model {
+    margin-top: 6rem;
+    z-index: 2; 
+}
+
+
+
+
+.section .model {
+    margin-top: 6rem;
+    position: relative;
+    z-index: 1; /* Adjust the stacking order of the content */
+}
+
+/* Rest of your existing CSS */
+
+
+@media all and (max-width:970px){
+    .header ul:first-of-type{
+        display: none;
+    }
+}
+
+@media all and (max-width:460px){
+    .header .second li:first-of-type{
+        display: none;
+    }
+    .header .second li:nth-of-type(2){
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
