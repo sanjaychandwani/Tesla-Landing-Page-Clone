@@ -44,7 +44,7 @@ function App() {
       <Section
         title="Model X"
         desc="A futuristic SUV redefining luxury and performance, showcasing Tesla's latest advancements in electric vehicle technology."
-        bgImg="model-X.jpg"
+        bgImg="model-x.jpg"
         leftbtn="Custom Order"
         rightbtn="Existing Inventory"
       />
